@@ -20,6 +20,8 @@
 		<item value="org.eclipse.wst.common.fproj:3.3.2.v201201121600-377DH8s735735535DD9"/>
 		<item value="org.eclipse.xsd.edit:2.7.0.v20120130-0943"/>
 		<item value="org.eclipse.xsd:2.7.1.v20120130-0943"/>
+		<item value="org.polarion.eclipse.team.svn.connector.svnkit17:3.0.1.I20130331-1700"/>
+		<item value="org.polarion.eclipse.team.svn.connector:3.0.1.I20130331-1700"/>
 		<item value="org.zend.php.common:1.0.0.201206111209-7B-1773573F55573L"/>
 	</list>
 </section>

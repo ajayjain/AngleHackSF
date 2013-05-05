@@ -26,15 +26,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.zend.customization.welcome.welcomePageEditor" name="Welcome" partName="Welcome" title="Welcome" tooltip="Welcome" workbook="DefaultEditorWorkbook">
-<input categories="true" discoveryFile="/pdt_directory.xml" factoryID="org.zend.php.common.welcome.WelcomePageEditorInput" id="welcomeBrowser" progressDialogMsg="Upgrading to Zend Studio" style="16" url="file:/Users/jimmyliu/Downloads/eclipse-php/plugins/org.zend.php.common_9.0.2.201206111209/resources/welcome/PDT-welcome-page.html"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.dltk.ui.TypeHierarchy" partName="Type Hierarchy">
@@ -76,6 +71,9 @@
 </view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console"/>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
 </views>
 <perspectives activePart="org.eclipse.php.ui.explorer" activePerspective="org.eclipse.php.perspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
@@ -121,6 +119,7 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -156,11 +155,13 @@
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.74905425" ratioLeft="594" ratioRight="199" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.php.ui.projectOutline" label="LabelNotFound"/>
 <page content="org.eclipse.php.ui.functions" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
