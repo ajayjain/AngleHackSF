@@ -1,0 +1,35 @@
+body p, h1, h2, h3, h4, h5, a {
+	font-family: "freight-sans-pro";
+}
+
+.header {
+	padding: 50px 0px 50px 0px;
+	background-color: #2980b9;
+}
+
+.header p {
+	color:white;
+}
+
+.search {
+	padding: 100px 0px 100px 0px;
+}
+
+.search h1 {
+	padding-bottom:40px;
+}
+
+.input-huge { 
+	width: 100%;
+	border-radius:none !important;
+}
+
+.input-huge:hover {
+	box-shadow:none !important;
+}
+
+.input-huge:focus {
+	box-shadow:none !important;
+}
+
+
