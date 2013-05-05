@@ -19,11 +19,20 @@
 	  		<div class="row-fluid">
 	  			<div class="span10 offset1">
 	  				<div id = "featured">
-	  				<img src="img/logo.png" width="25%" height="25%"><br><br>
+	  				<h1 class="text-center">YAMMBO</h1><br>
 	  				<h1 class="text-center">Give rewards to hard working employees</h1>
+	  				<p class="text-center">Click anywhere to login</p>
 	  				</div>
 	  			</div>
 	  		</div>
+  		</div>
+  		
+  		<div class="featureone">
+  			<div class="row-fluid">
+  				<div class="span10 offset1">
+  					
+  				</div>
+  			</div>	
   		</div>
   	</span>
   	</div>

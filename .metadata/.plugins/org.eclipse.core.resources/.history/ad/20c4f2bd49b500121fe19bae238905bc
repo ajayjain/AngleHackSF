@@ -198,8 +198,8 @@ button {
 	opacity:0.8;
 }
 
-#featured h1{
-	font-weight:100;
+#featured {
+	
 }
 
 .login {

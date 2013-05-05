@@ -198,7 +198,7 @@ button {
 	opacity:0.8;
 }
 
-#featured h1{
+#featured {
 	font-weight:100;
 }
 

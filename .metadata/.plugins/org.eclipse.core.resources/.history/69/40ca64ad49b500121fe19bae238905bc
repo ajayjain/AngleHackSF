@@ -197,11 +197,3 @@ button {
 	margin-right:-10.33%;
 	opacity:0.8;
 }
-
-#featured h1{
-	font-weight:100;
-}
-
-.login {
-	text-align:center;
-}
