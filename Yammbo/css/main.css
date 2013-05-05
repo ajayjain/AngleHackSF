@@ -1,3 +1,7 @@
+body {
+	padding:0px !important;
+}
+
 body p, h1, h2, h3, h4, h5, a {
 	font-family: "freight-sans-pro";
 }
@@ -90,7 +94,9 @@ body p, h1, h2, h3, h4, h5, a {
 .prize img {
 	border: 3px solid white;
 	margin-bottom: 20px;
+	margin-right:10px;
 	border-radius:10px;
+	display:block;
 }
 
 .prize img:hover {
@@ -123,26 +129,49 @@ body p, h1, h2, h3, h4, h5, a {
 	background-color:#27ae60;
 }
 
-#searchUsersList {
-	margin-top: 20px;
+.result  {
+	background-color:brown;
+	margin-top: 10px;
 	background-color:white;
 	width: 100%;
-	border-top: 1px;
-	border-color:black;
-	padding-left:5px;
+	padding:15px 0px 15px 20px;
 	border-radius: 5px;
 }
 
-#searchUsersList:hover {
+.result:hover {
 	background-color:#eee;
-}
-
-.sUser {
-	padding: 10px 0px 10px 0px;
 }
 
 .footer p {
 	padding: 20px 0px 20px 0px;
 }
 
+button {
+	border:none !important;
+	background:none;
+}
+
+.btn{
+	border:none !important;
+	background:none;
+	box-shadow: none !important;
+}
+
+.btn:hover {
+	border:none !important;
+	background:none;
+}
+
+.btn.active {
+	opacity: 0.5 !important;
+	background: none;
+}
+
+.btn.active:hover {
+	opacity: 0.5 !important;
+}
+
+button:active {
+	opacity: 0.5 !important;
+}
 

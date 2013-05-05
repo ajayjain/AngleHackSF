@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yammbo - $$$</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="css/main.css" rel="stylesheet" media="screen">
+    <script type="text/javascript" src="//use.typekit.net/baw6dig.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript" data-app-id="Jb6mFMu5mXSF0P3fEn5D3Q" src="https://assets.yammer.com/platform/yam.js"></script>
+  </head>
+  <body>
+  
+    <div class="header">
+      <div class="row-fluid">
+        <div class="span10 offset1">
+          <div class="row-fluid">
+            <div class="span4">
+              <p style="font-weight:900; font-size:25px">Yammbo</p>
+            </div>
+            <div class="span8">
+              <p class="text-right">Admin Panel</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  	<span id="yammer-login"></span>
+  	
+	<div id="after-login" class="hide">
+
+	    <div class="search">
+	      <div class="row-fluid">
+	        <div class="span8 offset2">
+	            <h1 class="text-center">Search for a user:</h1>
+	            <input id="userSearch" type="text" class="input-huge">
+	            <input id="selected-email" type="hidden" value="">
+	            <div id="searchUsersList"></div>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="bio">
+	      <div class="row-fluid">
+	        <div class="span10 offset1">
+	          <div class="row-fluid">
+	            <div class="span3">
+	              <img src="http://placehold.it/200x200" width="100%" height="100%">
+	            </div>
+	            <div class="span9">
+	              <h1>Ajay Jain</h1>
+	              <h3>Professional Indian</h3>
+	              <p>Kitty ipsum dolor sit amet, hiss jump on the table claw tail flick, scratched eat the grass leap eat the grass lay down in your way bat eat lay down in your way. Scratched biting chase the red dot attack your ankles I don't like that food chuf, attack your ankles run sunbathe shed everywhere sleep in the sink climb the curtains.</p>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="describe">
+	      <div class="row-fluid">
+	        <div class="span10 offset1">
+	          <h1>1. What did Ajay do?</h1><br><br>
+	          <textarea id="user-message" class="input-describe"></textarea>
+	        </div>
+	      </div>
+	    </div>
+
+    <div class="prize">
+      <div class="row-fluid">
+        <div class="span10 offset1">
+          <h1>2. What should Ajay get?</h1><br><br>
+          <div class="row-fluid">
+            <div class="span3">
+              <button><img src="img/target.png"></button>
+              <div class="giftcard">
+              	<p>about this card</p>
+              </div>
+            </div>
+            <div class="span3">
+              <button><img src="img/bestbuy.png"></button>
+              <div class="giftcard">
+              	<p>about this card</p>
+              </div>
+            </div>
+            <div class="span3">
+              <button><img src="img/starbucks.png"></button>
+              <div class="giftcard">
+              	<p>about this card</p>
+              </div>
+            </div>
+            <div class="span3">
+              <button><img src="img/target.png"></button>
+              <div class="giftcard">
+              	<p>about this card</p>
+              </div>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span3">
+              <button><img src="img/bitcoin.png"></button>
+              <div class="giftcard">
+              	<p>about this card</p>
+              </div>
+            </div>
+            <div class="span3">
+              <button></button><img src="img/bestbuy.png">
+              <div class="giftcard">
+              	<p>about this card</p>
+              </div>
+            </div>
+            <div class="span3">
+              <img src="img/target.png">
+              <div class="giftcard">
+              	<p>about this card</p>
+              </div>
+            </div>
+            <div class="span3">
+              <img src="img/starbucks.png">
+              <div class="giftcard">
+              	<p>about this card</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	    <div class="finish">
+	      <div class="row-fluid">
+	        <div class="span10 offset1">
+	          <h1>3. Reward Ajay</h1><br>
+	          <p>Kitty ipsum dolor sit amet, hiss jump on the table claw tail flick, scratched eat the grass leap eat the grass lay down in your way bat eat lay down in your way. Scratched biting chase the red dot attack your ankles I don't like that food chuf, attack your ankles run sunbathe shed everywhere sleep in the sink climb the curtains.</p><br><br>
+	          <a class="go" href="#"><center>Send Ajay a Yammbo!</center></a>
+	        </div>
+	      </div>
+	    </div>
+	    
+    </div> <!-- End of #after-login -->
+
+    <div class="footer">
+      <div class="row-fluid">
+        <div class="span10 offset1">
+          <p>Created at AngelHack 2013</p>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/json2.js"></script>	
+	<script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
