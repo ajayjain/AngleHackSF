@@ -1,4 +1,0 @@
-AngelHackSF
-===========
-
-AngelHackSF
