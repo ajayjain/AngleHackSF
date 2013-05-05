@@ -54,6 +54,15 @@
       </div>
     </div>
 
+    <div class="describe">
+      <div class="row-fluid">
+        <div class="span10 offset1">
+          <h1>1. What did Ajay do?</h1><br><br>
+          <textarea type="text" class="input-describe"></textarea>
+        </div>
+      </div>
+    </div>
+
     <div class="footer">
       <div class="row-fluid">
         <div class="span10 offset1">
@@ -68,6 +77,7 @@
     <script>
     $(document).ready(function() {
       $('.bio').toggle();
+      $('.describe').toggle();
     });
     </script>
     <script>
@@ -76,6 +86,7 @@
         event.preventDefault();
         $('.search').toggle();
         $('.bio').toggle();
+        $('.describe').toggle();
       }
     });
     </script>

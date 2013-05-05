@@ -37,19 +37,42 @@ body p, h1, h2, h3, h4, h5, a {
 	box-shadow:none !important;
 }
 
+.input-describe { 
+	width: 100%;
+	height:200px !important;
+	border-radius:5px !important;
+	font-size:16px !important;
+	box-shadow:none !important;
+	border: none !important;
+}
+
+.input-describe:hover {
+	box-shadow:none !important;
+}
+
+.input-describe:focus {
+	box-shadow:none !important;
+}
+
 .footer {
 	width:100%;
 }
 
 .bio {
 	background-color: #2980b9;
-	padding: 30px 0px 30px 0px;
+	padding: 50px 0px 50px 0px;
 	color:white;
 }
 
 .bio img {
 	border: 3px solid;
 	border-color:white;
+}
+
+.describe {
+	background-color:#3498db;
+	color:white;
+	padding: 50px 0px 50px 0px;
 }
 
 .footer p {
