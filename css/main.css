@@ -65,6 +65,10 @@ body p, h1, h2, h3, h4, h5, a {
 	color:white;
 }
 
+.bio p {
+	line-height:30px;
+}
+
 .bio img {
 	border: 3px solid;
 	border-color:white;
@@ -88,7 +92,33 @@ body p, h1, h2, h3, h4, h5, a {
 }
 
 .prize img:hover {
-	
+
+}
+
+.finish {
+	background-color:#3498db;
+	color:white;
+	padding: 50px 0px 50px 0px;
+}
+
+.finish p {
+	line-height:30px;
+}
+
+.go {
+	background-color:#2ecc71;
+	color:white;
+	display: block; 
+	width: 100%;
+	padding: 30px 15px 30px 15px;
+	border-radius: 5px;
+	font-size:20px;
+}
+
+.go:hover {
+	text-decoration:none;
+	color:white;
+	background-color:#27ae60;
 }
 
 .footer p {
