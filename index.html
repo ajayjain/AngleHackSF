@@ -36,6 +36,33 @@
       </div>
     </div>
 
+    <div class="bio">
+      <div class="row-fluid">
+        <div class="span10 offset1">
+          <div class="row-fluid">
+            <div class="span3">
+              <img src="http://placehold.it/200x200" width="100%" height="100%">
+            </div>
+            <div class="span9">
+              <h1>Ajay Jain</h1>
+              <h3>Professional Indian</h3>
+              <p>Kitty ipsum dolor sit amet, hiss jump on the table claw tail flick, scratched eat the grass leap eat the grass lay down in your way bat eat lay down in your way. Scratched biting chase the red dot attack your ankles I don't like that food chuf, attack your ankles run sunbathe shed everywhere sleep in the sink climb the curtains.</p>
+              <p>Kitty ipsum dolor sit amet, hiss jump on the table claw tail flick, scratched eat the grass leap eat the grass lay down in your way bat eat lay down in your way. Scratched biting chase the red dot attack your ankles I don't like that food chuf, attack your ankles run sunbathe shed everywhere sleep in the sink climb the curtains.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="describe">
+      <div class="row-fluid">
+        <div class="span10 offset1">
+          <h1>1. What did Ajay do?</h1><br><br>
+          <textarea type="text" class="input-describe"></textarea>
+        </div>
+      </div>
+    </div>
+
     <div class="footer">
       <div class="row-fluid">
         <div class="span10 offset1">
@@ -47,5 +74,21 @@
 
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('.bio').toggle();
+      $('.describe').toggle();
+    });
+    </script>
+    <script>
+    $(".input-huge").keypress(function(event) {
+      if (event.which == 13) {
+        event.preventDefault();
+        $('.search').toggle();
+        $('.bio').toggle();
+        $('.describe').toggle();
+      }
+    });
+    </script>
   </body>
 </html>
