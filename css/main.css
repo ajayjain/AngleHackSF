@@ -3,25 +3,30 @@ body p, h1, h2, h3, h4, h5, a {
 }
 
 .header {
-	padding: 50px 0px 50px 0px;
-	background-color: #2980b9;
+	padding: 20px 0px 20px 0px;
 }
 
 .header p {
-	color:white;
 }
 
 .search {
-	padding: 100px 0px 100px 0px;
+	padding: 16% 0% 20% 0%;
+	background-color: #2980b9;
 }
 
 .search h1 {
 	padding-bottom:40px;
+	color:white;
+	font-family: "museo-slab";
 }
 
 .input-huge { 
 	width: 100%;
-	border-radius:none !important;
+	height:60px !important;
+	border-radius:5px !important;
+	font-size:30px !important;
+	box-shadow:none !important;
+	border: none !important;
 }
 
 .input-huge:hover {
@@ -30,6 +35,14 @@ body p, h1, h2, h3, h4, h5, a {
 
 .input-huge:focus {
 	box-shadow:none !important;
+}
+
+.footer {
+	width:100%;
+}
+
+.footer p {
+	padding: 20px 0px 20px 0px;
 }
 
 
